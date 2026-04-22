@@ -173,3 +173,8 @@ section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
                 url("beautiful green two piece.jpg") center/cover no-repeat;
 }
+
+.content {
+    padding: 60px 20px;
+    text-align: center;
+}
