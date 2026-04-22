@@ -32,10 +32,10 @@ nav a:hover {
     color: gold;
 }
 
-/* HERO */
 .hero {
-    height: 90vh;
-    background: url("beautiful green two piece.jpg") center/cover no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+                url("beautiful green two piece.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,15 +43,16 @@ nav a:hover {
 }
 
 .hero h2 {
-    font-size: 48px;
-    letter-spacing: 4px;
+    font-size: 60px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 18px;
     color: #ccc;
+    letter-spacing: 2px;
 }
-
 /* INTRO */
 .intro {
     padding: 80px 20px;
