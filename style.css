@@ -123,3 +123,11 @@ footer {
 .featured-grid img:hover {
     transform: scale(1.08);
 }
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: gold;
+    margin: 10px auto;
+}
