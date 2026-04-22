@@ -150,3 +150,20 @@ section {
         transform: translateY(0);
     }
 }
+
+.page-hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+/* CONTACT BACKGROUND */
+.contact-bg {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+                url("stunning black dress.jpg") center/cover no-repeat;
+}
