@@ -20,18 +20,18 @@ header h1 {
     color: gold;
 }
 
-nav a {
-    color: #ddd;
-    margin-left: 25px;
+a {
+    color: #c5a47e;
     text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 1px;
 }
 
-nav a:hover {
-    color: gold;
+a:visited {
+    color: #c5a47e;
 }
 
+a:hover {
+    color: white;
+}
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
