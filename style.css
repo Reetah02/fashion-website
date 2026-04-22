@@ -131,3 +131,22 @@ h2::after {
     background: gold;
     margin: 10px auto;
 }
+
+section {
+    margin-bottom: 60px;
+}
+
+.hero h2 {
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
