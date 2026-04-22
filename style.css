@@ -197,3 +197,13 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
+
+a {
+    color: #c5a47e; /* soft gold */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
